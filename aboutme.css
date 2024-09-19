@@ -1,0 +1,103 @@
+body{
+    background-color: #efe0bb;
+}
+#h1{
+    font-weight: lighter;
+    background-attachment:  #af734a;
+}
+.h2{
+    height: 250%;
+}
+#name{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 190%;
+    font-weight: lighter; 
+    line-height: 10%;
+    letter-spacing: 5mm;
+}
+p{
+    text-align: center;
+    font-size: 130%;
+    font-weight: lighter;
+}
+.pogi{
+    height: 50%;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* This will center the image */
+    border-radius: 50%;
+}
+img {
+    border-radius: 50%;
+    transition: transform 0.5s;
+    width: 270px;
+    height: 5%;
+    text-align: center;
+    margin: 0;
+   }
+img:hover{
+   transform: scale(1.1);}
+.soc{
+    text-align: center;
+}
+article{
+    position:relative;
+    left: 8%;
+    font-size: 200%;
+}
+.main{
+    width: 100%; /* Ensure full width of the parent container */
+    display:flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-top: 20px; /* Optional: Add some space above the icons */
+}
+.icon{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    margin: 20px;
+    text-align: center;
+    font-size: 180%;
+    line-height: 80px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgb(150, 150, 150);
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon:hover{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+.icon:hover i{
+    color: #ffffff;
+}
+.icon .fa-facebook-f{
+  color: #1A6ED8;
+}
+.fb:hover{
+  background: #1A6ED8;
+}
+.icon .fa-youtube{
+      color: #FE0000;
+}
+.yt:hover{
+      background: #FE0000;
+}
+.icon .fa-instagram{
+      color: #c813b0;
+}
+.ig:hover{
+      background: #E1306C;}
